@@ -471,7 +471,7 @@ You are free to use, adapt, and build upon this work without restriction or attr
 
 ## Changelog
 
-### 0.1.0 (January 2025)
+### 0.1.0 (January 2026)
 
 Initial draft specification.
 
