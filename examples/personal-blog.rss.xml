@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:byline="https://bylinespec.org/1.0">
+  <channel>
+    <title>Annie's Blog</title>
+    <link>https://annie.example.com</link>
+    <description>Thoughts on design, photography, and creative tools.</description>
+
+    <byline:contributors>
+      <byline:person id="annie">
+        <byline:name>Annie Park</byline:name>
+        <byline:context>Designer and photographer based in Portland. Previously design lead at Figma. I write about creative tools, process, and the indie web.</byline:context>
+        <byline:url>https://annie.example.com</byline:url>
+        <byline:avatar>https://annie.example.com/avatar.jpg</byline:avatar>
+        <byline:profile href="https://mastodon.social/@annie" rel="mastodon"/>
+        <byline:profile href="https://github.com/anniepark" rel="github"/>
+        <byline:now>https://annie.example.com/now</byline:now>
+        <byline:uses>https://annie.example.com/uses</byline:uses>
+        <byline:theme color="#4A90A4" accent="#FF6B6B" style="light"/>
+      </byline:person>
+    </byline:contributors>
+
+    <item>
+      <title>Why I switched to Affinity</title>
+      <link>https://annie.example.com/affinity-switch</link>
+      <guid>https://annie.example.com/affinity-switch</guid>
+      <pubDate>Wed, 15 Jan 2025 10:00:00 GMT</pubDate>
+      <description>After 10 years with Adobe, I finally made the switch...</description>
+      <byline:author ref="annie"/>
+      <byline:perspective>personal</byline:perspective>
+    </item>
+
+    <item>
+      <title>Fujifilm X100VI Review</title>
+      <link>https://annie.example.com/x100vi-review</link>
+      <guid>https://annie.example.com/x100vi-review</guid>
+      <pubDate>Mon, 13 Jan 2025 10:00:00 GMT</pubDate>
+      <description>The camera I've been waiting for...</description>
+      <byline:author ref="annie"/>
+      <byline:perspective>review</byline:perspective>
+    </item>
+  </channel>
+</rss>

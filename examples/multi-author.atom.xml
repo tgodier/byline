@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:byline="https://bylinespec.org/1.0">
+
+  <title>The Tech Review</title>
+  <link href="https://thetechreview.example.com"/>
+  <link rel="self" href="https://thetechreview.example.com/feed.atom"/>
+  <id>https://thetechreview.example.com/</id>
+  <updated>2025-01-15T12:00:00Z</updated>
+
+  <byline:organizations>
+    <byline:org id="ttr">
+      <byline:name>The Tech Review</byline:name>
+      <byline:url>https://thetechreview.example.com</byline:url>
+      <byline:type>news</byline:type>
+      <byline:theme color="#1A1A2E" accent="#E94560" style="dark"/>
+    </byline:org>
+  </byline:organizations>
+
+  <byline:contributors>
+    <byline:person id="marcus">
+      <byline:name>Marcus Chen</byline:name>
+      <byline:context>Senior reporter covering Apple and consumer hardware since 2015. Based in SF.</byline:context>
+      <byline:url>https://thetechreview.example.com/authors/marcus</byline:url>
+      <byline:profile href="https://mastodon.social/@marcuschen" rel="mastodon"/>
+    </byline:person>
+
+    <byline:person id="elena">
+      <byline:name>Elena Vance</byline:name>
+      <byline:context>Editor-in-chief. Former WSJ tech editor. Opinions in clearly marked columns are my own.</byline:context>
+      <byline:url>https://thetechreview.example.com/authors/elena</byline:url>
+      <byline:now>https://elenavance.com/now</byline:now>
+    </byline:person>
+  </byline:contributors>
+
+  <entry>
+    <title>Apple announces M5 chip lineup at WWDC</title>
+    <link href="https://thetechreview.example.com/apple-m5-wwdc"/>
+    <id>https://thetechreview.example.com/apple-m5-wwdc</id>
+    <updated>2025-01-15T09:00:00Z</updated>
+    <summary>Apple revealed its next-generation silicon at today's keynote...</summary>
+
+    <byline:author ref="marcus"/>
+    <byline:role>staff</byline:role>
+    <byline:perspective>reporting</byline:perspective>
+  </entry>
+
+  <entry>
+    <title>Opinion: The App Store needs fundamental reform</title>
+    <link href="https://thetechreview.example.com/app-store-opinion"/>
+    <id>https://thetechreview.example.com/app-store-opinion</id>
+    <updated>2025-01-14T14:00:00Z</updated>
+    <summary>After fifteen years, it's time to rethink everything...</summary>
+
+    <byline:author ref="elena"/>
+    <byline:role>founder</byline:role>
+    <byline:perspective>personal</byline:perspective>
+  </entry>
+</feed>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Minimal Byline Example
+
+  This is the simplest useful Byline implementation:
+  - One person with name and context
+  - One item with author reference and perspective
+
+  Start here, add more elements as needed.
+-->
+<rss version="2.0" xmlns:byline="https://bylinespec.org/1.0">
+  <channel>
+    <title>My Blog</title>
+    <link>https://example.com</link>
+    <description>A blog about things.</description>
+
+    <byline:contributors>
+      <byline:person id="me">
+        <byline:name>Your Name</byline:name>
+        <byline:context>Writer and developer based in Portland.</byline:context>
+      </byline:person>
+    </byline:contributors>
+
+    <item>
+      <title>Hello World</title>
+      <link>https://example.com/hello</link>
+      <guid>https://example.com/hello</guid>
+      <pubDate>Mon, 01 Jan 2025 12:00:00 GMT</pubDate>
+      <description>My first post.</description>
+      <byline:author ref="me"/>
+      <byline:perspective>personal</byline:perspective>
+    </item>
+  </channel>
+</rss>
