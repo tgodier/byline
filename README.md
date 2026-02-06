@@ -68,6 +68,10 @@ Found a bug or have a suggestion? [Open an issue](https://github.com/tgodier/byl
 
 Want to list your implementation? Open an issue and we'll add it to the website.
 
+## Author
+
+Created by [Terry Godier](https://www.terrygodier.com), an indie iOS developer building Current, an RSS reader designed around the river-of-news philosophy. Byline grew out of the problem Current was trying to solve: when every feed item looks the same, readers lose context.
+
 ## License
 
 This specification is released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). You are free to use, adapt, and build upon this work without restriction.
